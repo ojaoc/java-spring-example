@@ -1,5 +1,8 @@
 package com.ojaoc.spring.example.car.components.wheel;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tire {
 
 	private String brand;

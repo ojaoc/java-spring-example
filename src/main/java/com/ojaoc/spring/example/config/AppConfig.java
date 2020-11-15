@@ -23,14 +23,23 @@ public class AppConfig {
 	}
 
 	@Bean
-	public Wheel[] getWheels() {
-		Wheel[] result = new Wheel[4];
-		for (int i = 0; i < result.length; i++) {
-			result[i] = new Wheel();
-		}
-		return result;
+	public Wheel getWheel1() {
+		return new Wheel();
 	}
 
+	@Bean
+	public Wheel getWheel2() {
+		return new Wheel();
+	}
+	@Bean
+	public Wheel getWheel3() {
+		return new Wheel();
+	}
+	@Bean
+	public Wheel getWheel4() {
+		return new Wheel();
+	}
+	
 	@Bean
 	public Tire getTire() {
 		return new Tire("Michelin");

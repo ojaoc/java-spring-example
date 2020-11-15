@@ -1,0 +1,8 @@
+com/ojaoc/spring/example/App.class
+com/ojaoc/spring/example/car/components/wheel/Tire.class
+com/ojaoc/spring/example/car/components/Engine.class
+com/ojaoc/spring/example/car/components/Wheel.class
+com/ojaoc/spring/example/car/Car.class
+com/ojaoc/spring/example/config/AppConfig.class
+com/ojaoc/spring/example/exceptions/IncorrectNumOfWheelsException.class
+com/ojaoc/spring/example/car/components/wheel/Rim.class
